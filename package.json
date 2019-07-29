@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
+    "start": "ng serve --port $PORT",
+    "dev": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -36,11 +37,11 @@
     "ngx-toastr": "10.0.4",
     "rxjs": "6.5.2",
     "tslib": "1.9.0",
-    "zone.js": "0.9.1"
+    "zone.js": "0.9.1",
+    "@angular/cli": "8.0.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.800.0",
-    "@angular/cli": "8.0.4",
     "@angular/compiler-cli": "8.0.2",
     "@types/bootstrap": "4.3.0",
     "@types/chartist": "0.9.46",
